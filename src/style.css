@@ -13,7 +13,7 @@ body, html {
     height: 100%;
     background-color: red;
     display: grid;
-    grid-template: 1fr 9fr / 1fr 7fr;
+    grid-template: 1fr 9fr / 1fr 6.5fr;
 }
 
 .titleBar {
@@ -33,5 +33,35 @@ body, html {
     background-color: white;
     display: flex;
     flex-direction: column;
-    
+    align-items: center;
+    gap: 0.5em;
+    padding-top: 1em;
+}
+
+.sideButton {
+    height: 2.5em;
+    width: 180px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 1em;
+    padding-left: 0.5em;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+.sideButton:hover {
+    cursor: pointer;
+    background-color: rgb(241, 241, 241);
+}
+
+
+.icon {
+    height: 35px;
+    width: 35px;
+}
+
+.text {
+    display: inline-block;
+    font-size: 25px;
 }
