@@ -57,11 +57,22 @@ body, html {
 
 
 .icon {
-    height: 35px;
-    width: 35px;
+    height: 30px;
+    width: 30px;
 }
 
 .text {
     display: inline-block;
     font-size: 25px;
+}
+
+#project {
+    width: 180px;
+    margin-top: 5em;
+    gap: 0.75em;
+}
+
+.plus {
+    height: 32px;
+    width: 32px;
 }

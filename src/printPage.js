@@ -53,4 +53,26 @@ export default function printMe() {
     weekText.className = "text";
     weekText.innerHTML = "This Week"
     week.appendChild(weekText);
+
+
+    const project = document.createElement("div");
+    project.className = "sideButton";
+    project.id = "project";
+    sidebar.appendChild(project);
+
+    const projectImage = document.createElement("img");
+    projectImage.className = "icon";
+    projectImage.src = "project.png";
+    project.appendChild(projectImage);
+
+    const projectText = document.createElement("div");
+    projectText.className = "text";
+    projectText.innerHTML = "My Projects";
+    project.appendChild(projectText);
+
+    const plus = document.createElement("img");
+    plus.className = "plus";
+    plus.src = "plus.png";
+    sidebar.appendChild(plus);
+
   }
